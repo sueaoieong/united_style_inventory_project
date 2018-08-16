@@ -1,0 +1,14 @@
+///create table
+CREATE TABLE IF NOT EXISTS inventory(post_ID PRIMARY KEY,貨名, 類型, 顏色, 尺寸, 成本, 售價, link, Barcode, 日期)
+
+CREATE TABLE IF NOT EXISTS in_DB(post_ID, 貨名, 顏色, 尺寸,庫存, 日期 )
+
+CREATE TABLE IF NOT EXISTS out_DB(id,交收人員, Barcode, 日期)
+
+CREATE TABLE IF NOT EXISTS people(id,人名, 電話)
+
+//modify table
+
+INSERT INTO inventory (post_ID,貨名,顏色, 尺寸,成本, 售價, link, Barcode, 日期) VALUES (?,?,?,?,?,?,?,?,?)
+
+INSERT INTO in_DB ()
